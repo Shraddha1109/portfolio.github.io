@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#certificate" onclick="toggleMenu();">Certificate</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Shraddha Kasaudhan</span></h2>
+            <h3>I'm a Full Stack Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/Shraddha.jpeg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Shraddha Kasaudhan</b>, a python web Developer</h2>
+                <p>I am hard working and dedicated software developer.I am always willing to learn new skills.I am polite,helpful and friendly person.I enjoy to teach coding to others</p><br>
+                <p>.I spend a lot of time learning new techniques and actively help other people learn through a variety of help groups. and I have been doing coding for years in different programming language,and develop various projects using python.</p>
+                <div class="heading bottom">
+                    <a href="images/Resume.pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Shraddha Kasaudhan<br>
+                        <b>Age:</b> 23
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> shraddha7017@gmail.com<br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>My Skills</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-html fa-4x"></i>
+                <h3>HTML</h3> 
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-python fa-4x"></i>
+                <h3>python</h3>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-sql fa-4x"></i>
+                <h3>MySQL</h3>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-django fa-4x"></i>
+                <h3>Django</h3>
+            </div>
+
+            <div class="servicesBx">
+                <i class="fa fa-css fa-4x"></i>
+                <h3>CSS</h3>
+            </div>
+          
+          
+
+    <!-- Creating Projects Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Our Latest Work</h2>
+            <p>Showcasing some of my <b>Projects</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://github.com/Shraddha1109/Traffic-Violation-Detector-using-Object-Detection" target="_blank">
+                    <img src="images/car1.jpg" alt="">
+                    <p>Traffic Violation Detector using Object detection</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://github.com/Shraddha1109/EMI_Calculator" target="_blank">
+                    <img src="images/loanemi.jpg" alt="">
+                    <p>EMI Loan Calculator</p>
+                </a>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Creating certificate Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Certificate</h2>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Internship certificate of Accenture Bridge Program</p>
+            </div>
+            <div class="testimonialBx">
+                <p>Python with machine learning by CloudxLab</p>
+            </div>
+            <div class="testimonialBx">
+                <p>SQL by Cognitive.ai</p>
+            </div>
+            <div class="testimonialBx">
+                <p>Javascript by udemy</p>
+            </div>
+            <div class="testimonialBx">
+                <p>Python by CISCO</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Faridpur,Bareilly,Uttar Pradesh-243503</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>7668076998</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>Shraddha7017@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
